@@ -16,7 +16,7 @@ A API REST recibe dados `Form URL Encoded` desde um formulário no navegador ou 
 ## Demonstrações
 Foi rodado nas plataformas Heroku e Replit. Fica a vontade para testar:
 
-* [Heroku App](https://api-tarefas-toti.herokuapp.com/tasks)
+* [Heroku App](https://api-tarefas-toti.herokuapp.com/)
 
 * [Replit App](https://api-tasks.yoelvisj.repl.co/)
 
