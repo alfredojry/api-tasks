@@ -13,11 +13,14 @@ A API REST recibe dados `Form URL Encoded` desde um formulário no navegador ou 
 |PUT          |`/tasks/:id` |
 |DELETE       |`/tasks/:id` |
 
-## Demonstração
+## Demonstrações
+Foi rodado nas plataformas Heroku e Replit. Fica a vontade para testar:
+
+* [Heroku App](https://api-tarefas-toti.herokuapp.com/tasks)
 
 * [Replit App](https://api-tasks.yoelvisj.repl.co/)
 
-* [Código](https://replit.com/@yoelvisj/api-tasks)
+* [Editor de código de Repl.it](https://replit.com/@yoelvisj/api-tasks)
 
 ## Instalação local
 
