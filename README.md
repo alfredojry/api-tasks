@@ -8,9 +8,16 @@ A API REST recibe dados `Form URL Encoded` desde um formulário no navegador ou 
 | Método HTTP | Caminho     |
 |:-----------:|-------------|
 |GET          |`/tasks`     |
+|GET          |`/tasks/:id` |
 |POST         |`/tasks`     |
 |PUT          |`/tasks/:id` |
 |DELETE       |`/tasks/:id` |
+
+## Demonstração
+
+[Replit App](https://replit.com/@yoelvisj/api-tasks)
+
+## Instalação local
 
 ### 1. Clonar este repositório
 

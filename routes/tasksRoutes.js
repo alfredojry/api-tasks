@@ -15,6 +15,16 @@ app.get('/tasks', async (req, res) => {
     }
 });
 
+app.get('/tasks/:id', async (req, res) => {
+    const { id } = req.params;
+    try {
+        task = await taskModel.findById(id);
+        res.send(task);
+    } catch (error) {
+        res.status(500).send(error);
+    }
+});
+
 app.post('/tasks', async (req, res) => {
     const { description } = req.body;
     const task = new taskModel({ description });
